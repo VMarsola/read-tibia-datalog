@@ -1,0 +1,15 @@
+.home {
+  background-image: url("../../assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  border: 0 solid $primary;
+  border-width: 5rem 4rem 5rem 4rem;
+  display: grid;
+  place-items: center;
+
+  @media (max-width: 768px) {
+    border-width: 2rem;
+  }
+}

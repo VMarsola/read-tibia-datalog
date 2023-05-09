@@ -1,0 +1,75 @@
+.modal {
+  background: $primary;
+  border: 6px solid $primaryLight;
+  border-radius: 6px;
+  min-width: 38rem;
+  min-height: 24rem;
+  color: $textColor;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & h2 {
+    font-size: $titleSize;
+  }
+
+  @media (max-width: 768px) {
+    min-width: unset;
+    min-height: unset;
+    transform: scale(0.8);
+  }
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    width: unset;
+  }
+}
+
+.item {
+  background: $primaryLight;
+  border: solid $grey;
+  border-width: 1px 0.5px 0.5px 1px;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex: 1;
+}
+
+.row {
+  width: 100%;
+  margin: 1rem 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  & .item + .item {
+    margin: 0 0 0 1rem;
+  }
+
+  @media (max-width: 375px) {
+    flex-direction: column;
+    & .item + .item {
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+.box {
+  margin: 0 0 1rem 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

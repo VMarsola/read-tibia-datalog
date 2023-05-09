@@ -1,0 +1,11 @@
+.logo {
+  margin: 0.5rem 0 0 6rem;
+
+  position: absolute;
+
+  @media (max-width: 768px) {
+    left: 0;
+    right: 0;
+    margin: 0.5rem auto;
+  }
+}
