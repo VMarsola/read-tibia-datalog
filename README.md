@@ -1,7 +1,7 @@
 # Tibia Log
 
 <div align="center">
- <img  src="./src/assets/Logo.png"  style=" padding:12px; border-radius: 8px" alt="ts" width="80"  height="80" />
+ <img  src="./src/assets/logo.png"  style=" padding:12px; border-radius: 8px" alt="ts" width="80"  height="80" />
 </div>
 
 ## Technologies Used
