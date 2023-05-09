@@ -1,4 +1,4 @@
-const url = "./Server_Log.txt";
+import url from "./Server_Log.txt";
 
 const creatureRegExp =
   /You (?:lose|gain) \d+ hitpoint(?:s)?(?: due to an attack by a (\w+))?/;
