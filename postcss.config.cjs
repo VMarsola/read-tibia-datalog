@@ -13,6 +13,7 @@ module.exports = {
         gold: "#B8B233",
         green: "#49BE2E",
         purple: "#9552D4",
+        orange: "#BC612C",
         titleSize: "1.5rem",
         textSize: "1rem",
       },
